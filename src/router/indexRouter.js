@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '@/components/Home'
-import Detail from "@/components/detail"
+const Home = () => import('../components/Home')
+const Detail = () => import("../components/detail/detail")
 
 Vue.use(Router)
 
 export default new Router({
-  // mode: "history",
+  mode: "history",
   routes: [
     {
       path: '/',
