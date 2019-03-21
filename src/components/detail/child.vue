@@ -18,7 +18,7 @@ export default {
   },
   mounted(){
       let that = this;
-      console.log(that.$store.state.Count)
+      // console.log(that.$store.state.Count)
   }
 };
 </script>

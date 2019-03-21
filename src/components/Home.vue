@@ -3,6 +3,7 @@
     <h1>{{ msg }}</h1>
     <h2>持续开发中。。。</h2>
     <router-link class="detail-btn" to="/detail">去详情页</router-link>
+    <router-link class="detail-btn mock" to="/mock">去mockData页</router-link>
   </div>
 </template>
 
@@ -49,6 +50,10 @@ ul {
     line-height: 50px;
     font-size: 20px;
     color: #fff;
+  }
+  .mock{
+    margin-top: 20px;
+    background: radial-gradient(#41b883,#35495e);
   }
 }
 </style>
